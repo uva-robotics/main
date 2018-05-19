@@ -1,1 +1,1 @@
-nmcli device wifi hotspot con-name janne-hotspot ssid janne-hotspot band bg password jannejanne
+nmcli device wifi hotspot con-name hotspot ssid hotspot band bg password password
