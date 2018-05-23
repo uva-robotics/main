@@ -1,7 +1,0 @@
-devel
-build
-lib
-naoqi_os
-src/*
-.catkin_workspace
-website
