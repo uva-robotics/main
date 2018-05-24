@@ -10,9 +10,9 @@ fi
 
 echo "ROS_MASTER:     $ROS_MASTER"
 
-echo "export ROS_IP=`ip route get 1 | grep "src" | sed 's/.*src \([0-9\.]*\).*/\1/'`" >> ~/.bashrc
-echo "export ROS_HOSTNAME=$ROS_IP" >> ~/.bashrc
-echo "export ROS_MASTER_URI='http://$ROS_MASTER:11311'" >> ~/.bashrc
+export ROS_IP=`ip route get ${ROS_MASTER} | grep "src" | sed 's/.*src \([0-9\.]*\).*/\1/'`
+export ROS_HOSTNAME=$ROS_IP
+export ROS_MASTER_URI="http://$ROS_MASTER:11311"
 
 echo "ROS_IP:         $ROS_IP"
 echo "ROS_HOSTNAME:   $ROS_HOSTNAME"
