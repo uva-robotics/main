@@ -1,0 +1,37 @@
+version: '3'
+services:
+  ros_core:
+    container_name: ros_core
+    build: docker_files/ros_core
+    image: uva/ros_core
+    command: roscore
+  pepper:
+    container_name: pepper_devel
+    build: docker_files/pepper
+    image: uva/pepper
+    volumes:
+    - .:/root
+    command: bash -c  "echo cd >> /root/.bashrc && tail -F /dev/null"
+  mysql:
+    container_name: mysql
+    image: mysql:5.7
+    environment:
+    - MYSQL_ROOT_PASSWORD=root
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    ports:
+    - "8080:80"
+    links:
+    - mysql:db
+  ros_storage:
+    container_name: ros_storage
+    build: src/ros_storage
+    image: uva/ros_storage
+    environment:
+    - "ROS_MASTER_URI=http://ros_core:11311"
+    - MYSQL_SERVER=mysql
+    command: bash -c  "echo cd >> /root/.bashrc && tail -F /dev/null"
+    links:
+    - ros_core
+    - mysql
