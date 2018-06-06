@@ -37,6 +37,7 @@ RUN rosdep init \
 ENV ROS_DISTRO kinetic
 RUN apt-get update && apt-get install -y \
     ros-kinetic-ros-core \
+    ros-kinetic-naoqi-bridge-msgs \
     && rm -rf /var/lib/apt/lists/*
 
 # setup entrypoint
