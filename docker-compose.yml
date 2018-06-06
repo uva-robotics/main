@@ -11,6 +11,7 @@ services:
     image: uva/pepper
     volumes:
     - .:/root
+    network_mode: "host"
     command: bash -c  "echo cd >> /root/.bashrc && tail -F /dev/null"
   mysql:
     container_name: mysql

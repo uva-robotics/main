@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     net-tools \
     iputils-ping \
     netcat \
+    iproute2 \
     && rm -rf /var/lib/apt/lists/*
 
 # setup keys
