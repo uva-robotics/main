@@ -40,6 +40,12 @@ RUN apt-get update && apt-get install -y \
     ros-kinetic-naoqi-bridge-msgs \
     && rm -rf /var/lib/apt/lists/*
 
+# Additional useful python libraries
+RUN apt update && apt install -y \
+    python-opencv \
+    python-cv-bridge \
+    python-matplotlib
+
 # setup entrypoint
 COPY ./ros_entrypoint.sh /
 
