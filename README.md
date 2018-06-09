@@ -33,6 +33,12 @@ For Linux (Debian-based):
 ## Deployment
 `./init_docker.sh` will run docker-compose that initializes all the containers that run our code.
 
+To be able to run graphical applications inside docker, you will need to give the root user access to display windows. This can be done using the following command.
+
+```bash
+xhost +SI:localuser:root
+```
+
 
 ##### Docker commands
 `docker ps` will list all running containers.  
