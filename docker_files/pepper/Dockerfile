@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     iputils-ping \
     netcat \
     iproute2 \
+    vim \
+    ssh\
     && rm -rf /var/lib/apt/lists/*
 
 # setup keys
@@ -37,7 +39,15 @@ RUN rosdep init \
 ENV ROS_DISTRO kinetic
 RUN apt-get update && apt-get install -y \
     ros-kinetic-ros-core \
+    ros-kinetic-nao-robot \
     ros-kinetic-naoqi-bridge-msgs \
+    ros-kinetic-pepper-robot\
+    ros-kinetic-pepper-meshes\
+    ros-kinetic-pepper-moveit-config\
+    ros-kinetic-rviz \
+    ros-kinetic-ros-tutorials\
+    ros-kinetic-rqt\
+    ros-kinetic-rqt-common-plugins\
     && rm -rf /var/lib/apt/lists/*
 
 # Additional useful python libraries

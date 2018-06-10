@@ -10,7 +10,7 @@ services:
     build: docker_files/pepper
     image: uva/pepper
     volumes:
-    - .:/root
+    - ~:/root
     - /tmp/.X11-unix:/tmp/.X11-unix
     environment:
     - DISPLAY=unix${DISPLAY}
