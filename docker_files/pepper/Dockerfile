@@ -25,6 +25,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     python-rosdep \
     python-rosinstall \
     python-vcstools \
+    python-catkin-tools \
     && rm -rf /var/lib/apt/lists/*
 
 # setup environment
@@ -39,15 +40,23 @@ RUN rosdep init \
 ENV ROS_DISTRO kinetic
 RUN apt-get update && apt-get install -y \
     ros-kinetic-ros-core \
-    ros-kinetic-nao-robot \
-    ros-kinetic-naoqi-bridge-msgs \
-    ros-kinetic-pepper-robot\
-    ros-kinetic-pepper-meshes\
-    ros-kinetic-pepper-moveit-config\
-    ros-kinetic-rviz \
     ros-kinetic-ros-tutorials\
+    ros-kinetic-catkin \
+    # Visualisation general
+    ros-kinetic-rviz \
     ros-kinetic-rqt\
     ros-kinetic-rqt-common-plugins\
+    # General pepper/NaoQi
+#    ros-kinetic-nao-robot \
+    ros-kinetic-naoqi-bridge-msgs \
+    ros-kinetic-pepper-robot\
+    ros-kinetic-pepper-dcm-bringup\
+    # Pepper visualisation/simulation
+    ros-kinetic-pepper-meshes\
+    ros-kinetic-pepper-gazebo-plugin\
+    # MoveIt planning
+    ros-kinetic-moveit\
+    ros-kinetic-pepper-moveit-config\
     && rm -rf /var/lib/apt/lists/*
 
 # Additional useful python libraries
