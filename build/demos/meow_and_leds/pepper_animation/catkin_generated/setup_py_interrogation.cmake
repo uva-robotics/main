@@ -1,6 +1,0 @@
-set(pepper_animation_SETUP_PY_VERSION "0.0.0")
-set(pepper_animation_SETUP_PY_SCRIPTS "")
-set(pepper_animation_SETUP_PY_PACKAGES "pepper_animation")
-set(pepper_animation_SETUP_PY_PACKAGE_DIRS "src/pepper_animation")
-set(pepper_animation_SETUP_PY_MODULES "")
-set(pepper_animation_SETUP_PY_MODULE_DIRS "")

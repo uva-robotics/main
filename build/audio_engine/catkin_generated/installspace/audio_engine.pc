@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/install
-
-Name: audio_engine
-Description: Description of audio_engine
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/install/lib 
-Requires: 

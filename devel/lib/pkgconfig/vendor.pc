@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/devel
-
-Name: vendor
-Description: Description of vendor
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/devel/lib 
-Requires: 

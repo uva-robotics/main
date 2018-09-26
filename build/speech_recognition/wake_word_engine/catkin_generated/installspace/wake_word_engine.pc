@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/install
-
-Name: wake_word_engine
-Description: Description of wake_word_engine
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/install/lib 
-Requires: 

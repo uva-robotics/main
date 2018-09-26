@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/devel
-
-Name: slack_ros
-Description: Description of slack_ros
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/devel/lib 
-Requires: 

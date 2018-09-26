@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/install
-
-Name: boilerplate_pkg
-Description: Description of boilerplate_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/install/lib 
-Requires: 

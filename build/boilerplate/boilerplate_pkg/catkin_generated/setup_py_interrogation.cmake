@@ -1,6 +1,0 @@
-set(boilerplate_pkg_SETUP_PY_VERSION "0.0.0")
-set(boilerplate_pkg_SETUP_PY_SCRIPTS "")
-set(boilerplate_pkg_SETUP_PY_PACKAGES "boiplerplate_pkg")
-set(boilerplate_pkg_SETUP_PY_PACKAGE_DIRS "src/boiplerplate_pkg")
-set(boilerplate_pkg_SETUP_PY_MODULES "")
-set(boilerplate_pkg_SETUP_PY_MODULE_DIRS "")

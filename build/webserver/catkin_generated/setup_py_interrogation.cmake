@@ -1,6 +1,0 @@
-set(webserver_SETUP_PY_VERSION "0.0.0")
-set(webserver_SETUP_PY_SCRIPTS "")
-set(webserver_SETUP_PY_PACKAGES "webserver")
-set(webserver_SETUP_PY_PACKAGE_DIRS "src/webserver")
-set(webserver_SETUP_PY_MODULES "")
-set(webserver_SETUP_PY_MODULE_DIRS "")

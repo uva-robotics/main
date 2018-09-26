@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/install
-
-Name: image_recognition_tensorflow
-Description: Description of image_recognition_tensorflow
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/install/lib 
-Requires: 

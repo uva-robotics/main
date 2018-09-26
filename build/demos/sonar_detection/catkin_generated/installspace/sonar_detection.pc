@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/install
-
-Name: sonar_detection
-Description: Description of sonar_detection
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/install/lib 
-Requires: 

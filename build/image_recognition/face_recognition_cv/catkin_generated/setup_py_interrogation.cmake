@@ -1,6 +1,0 @@
-set(face_recognition_cv_SETUP_PY_VERSION "0.0.0")
-set(face_recognition_cv_SETUP_PY_SCRIPTS "")
-set(face_recognition_cv_SETUP_PY_PACKAGES "face_recognition_cv")
-set(face_recognition_cv_SETUP_PY_PACKAGE_DIRS "src/face_recognition_cv")
-set(face_recognition_cv_SETUP_PY_MODULES "")
-set(face_recognition_cv_SETUP_PY_MODULE_DIRS "")

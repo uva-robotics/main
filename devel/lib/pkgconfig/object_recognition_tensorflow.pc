@@ -1,8 +1,0 @@
-prefix=/VirtualShare/uva-robotics/main/devel
-
-Name: object_recognition_tensorflow
-Description: Description of object_recognition_tensorflow
-Version: 0.0.0
-Cflags: 
-Libs: -L/VirtualShare/uva-robotics/main/devel/lib 
-Requires: 
