@@ -1,0 +1,8 @@
+prefix=/VirtualShare/uva-robotics/main/devel
+
+Name: pepper_animation
+Description: Description of pepper_animation
+Version: 0.0.0
+Cflags: 
+Libs: -L/VirtualShare/uva-robotics/main/devel/lib 
+Requires: 

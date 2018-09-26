@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>face_recognition_cv</name>
+  <version>0.0.0</version>
+  <description>The face_recognition_cv package</description>
+
+  <maintainer email="janne.spijkervet@hotmail.com">Janne Spijkervet</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>python-six</run_depend>
+</package>

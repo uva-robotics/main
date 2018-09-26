@@ -1,0 +1,8 @@
+prefix=/VirtualShare/uva-robotics/main/devel
+
+Name: object_recognition
+Description: Description of object_recognition
+Version: 0.0.0
+Cflags: 
+Libs: -L/VirtualShare/uva-robotics/main/devel/lib 
+Requires: 

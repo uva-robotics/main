@@ -1,0 +1,6 @@
+set(slack_ros_SETUP_PY_VERSION "0.0.0")
+set(slack_ros_SETUP_PY_SCRIPTS "")
+set(slack_ros_SETUP_PY_PACKAGES "slack_ros")
+set(slack_ros_SETUP_PY_PACKAGE_DIRS "src/slack_ros")
+set(slack_ros_SETUP_PY_MODULES "")
+set(slack_ros_SETUP_PY_MODULE_DIRS "")

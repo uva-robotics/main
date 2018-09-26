@@ -1,0 +1,8 @@
+prefix=/VirtualShare/uva-robotics/main/install
+
+Name: face_recognition_cv
+Description: Description of face_recognition_cv
+Version: 0.0.0
+Cflags: 
+Libs: -L/VirtualShare/uva-robotics/main/install/lib 
+Requires: 

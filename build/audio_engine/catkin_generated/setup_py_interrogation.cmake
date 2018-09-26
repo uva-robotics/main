@@ -1,0 +1,6 @@
+set(audio_engine_SETUP_PY_VERSION "0.0.0")
+set(audio_engine_SETUP_PY_SCRIPTS "")
+set(audio_engine_SETUP_PY_PACKAGES "audio_engine")
+set(audio_engine_SETUP_PY_PACKAGE_DIRS "src/audio_engine")
+set(audio_engine_SETUP_PY_MODULES "")
+set(audio_engine_SETUP_PY_MODULE_DIRS "")

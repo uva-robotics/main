@@ -1,0 +1,6 @@
+set(wake_word_engine_SETUP_PY_VERSION "0.0.0")
+set(wake_word_engine_SETUP_PY_SCRIPTS "")
+set(wake_word_engine_SETUP_PY_PACKAGES "wake_word_engine")
+set(wake_word_engine_SETUP_PY_PACKAGE_DIRS "src/wake_word_engine")
+set(wake_word_engine_SETUP_PY_MODULES "")
+set(wake_word_engine_SETUP_PY_MODULE_DIRS "")

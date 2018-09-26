@@ -1,0 +1,6 @@
+set(google_speech_recognition_SETUP_PY_VERSION "0.0.0")
+set(google_speech_recognition_SETUP_PY_SCRIPTS "")
+set(google_speech_recognition_SETUP_PY_PACKAGES "google_speech_recognition")
+set(google_speech_recognition_SETUP_PY_PACKAGE_DIRS "src/google_speech_recognition")
+set(google_speech_recognition_SETUP_PY_MODULES "")
+set(google_speech_recognition_SETUP_PY_MODULE_DIRS "")

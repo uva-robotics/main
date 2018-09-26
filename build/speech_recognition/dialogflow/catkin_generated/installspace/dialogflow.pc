@@ -1,0 +1,8 @@
+prefix=/VirtualShare/uva-robotics/main/install
+
+Name: dialogflow
+Description: Description of dialogflow
+Version: 0.0.0
+Cflags: 
+Libs: -L/VirtualShare/uva-robotics/main/install/lib 
+Requires: 

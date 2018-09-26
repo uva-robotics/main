@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>object_recognition_tensorflow</name>
+  <version>0.0.0</version>
+  <description>Object recognition packages, but then with the machine learning framework tensorflow</description>
+
+  <maintainer email="mullertim99@gmail.com">Tim Müller</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend></build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>python-six</run_depend>
+  <!-- <run_depend>python-tensorflow-pip</run_depend> -->
+</package>
