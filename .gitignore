@@ -1,3 +1,4 @@
 src
 devel
 build
+.catkin_workspace
